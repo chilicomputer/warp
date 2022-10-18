@@ -148,6 +148,8 @@ pub use self::filters::{
     trace,
     // trace() function
     trace::trace,
+    // version function
+    version::version,
 };
 // ws() function
 pub use self::filter::wrap_fn;
